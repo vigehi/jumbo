@@ -27,8 +27,8 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-family: 'Space Grotesk';
+  font-size: 22px;
   line-height: 18px;
   color: #111111;
   font-weight: 300;
@@ -99,7 +99,7 @@ h5 {
 }
 
 a {
-  color: #00C5CB;
+  color: #ffa500;
   text-decoration: none !important;
 }
 
@@ -209,14 +209,14 @@ section:nth-child(even) {
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  background: #00C5CB;
+  background: #ffa500;
 }
 .navbar-main .navbar-nav li a:hover {
-  color: #00C5CB;
+  color: #ffa500;
 }
 .navbar-main .navbar-nav li.active a, .navbar-main .navbar-nav li.active a:focus, .navbar-main .navbar-nav li.active a:hover {
   background-color: transparent;
-  color: #00C5CB;
+  color: #ffa500;
 }
 .navbar-main .navbar-toggle .icon-bar {
   background-color: #fff;
@@ -233,7 +233,7 @@ section:nth-child(even) {
 /*=== 2.2 FOOTER ===*/
 footer .scroll-down, .banner-area a.scroll-down {
   font-size: 36px;
-  color: #00C5CB;
+  color: #ffa500;
   position: absolute;
   bottom: 10px;
   right: 15px;
@@ -390,7 +390,7 @@ footer p {
   min-height: 40px;
 }
 .form-control:focus {
-  border-color: #00C5CB;
+  border-color: #ffa500;
   -webkit-box-shadow: 0 0 0 transparent;
   -moz-box-shadow: 0 0 0 transparent;
   box-shadow: 0 0 0 transparent;
@@ -405,7 +405,7 @@ footer p {
 /*=== 5. Button ===*/
 .btn, .portfolio-filter li a {
   padding: 10px 25px;
-  color: #00C5CB;
+  color: #ffa500;
   text-transform: uppercase;
   margin-bottom: 15px;
   font-size: 16px;
@@ -416,7 +416,7 @@ footer p {
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  border: 2px solid #00C5CB;
+  border: 2px solid #ffa500;
 }
 .btn:after, .portfolio-filter li a:after {
   left: 0;
@@ -429,7 +429,7 @@ footer p {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #00C5CB;
+  background: #ffa500;
 }
 .btn:hover:after, .portfolio-filter li a:hover:after {
   height: 100%;
@@ -440,7 +440,7 @@ footer p {
   color: #fff;
   z-index: 1;
   background: transparent;
-  border: 2px solid #00C5CB;
+  border: 2px solid #ffa500;
 }
 
 .social-icons a, .service-area .service-content .service-icon {
@@ -536,8 +536,8 @@ footer p {
   display: inline-block;
   margin-bottom: 10px;
   margin-right: 0;
-  color: #00C5CB;
-  border: 1px solid #00C5CB;
+  color: #ffa500;
+  border: 1px solid #ffa500;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
@@ -545,11 +545,11 @@ footer p {
   transition: all 0.5s ease-in-out;
 }
 .service-area .service-content:hover h4 {
-  color: #00C5CB;
+  color: #ffa500;
 }
 .service-area .service-content:hover .service-icon {
   color: #fff;
-  background-color: #00C5CB;
+  background-color: #ffa500;
 }
 
 .counter-area {
@@ -563,7 +563,7 @@ footer p {
 }
 .counter-area .counter-wrap {
   padding: 10px;
-  border: 1px solid #00C5CB;
+  border: 1px solid #ffa500;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
@@ -571,7 +571,7 @@ footer p {
   transition: all 0.5s ease-in-out;
 }
 .counter-area .counter-wrap .counter-icon, .counter-area .counter-wrap .counter-title {
-  color: #00C5CB;
+  color: #ffa500;
   padding: 15px 0;
   font-size: 15px;
 }
@@ -626,7 +626,7 @@ footer p {
   margin-bottom: 50px;
 }
 .portfolio-filter li a:focus {
-  color: #00C5CB;
+  color: #ffa500;
 }
 .portfolio-filter li a:hover:focus {
   color: #fff;
@@ -648,7 +648,7 @@ footer p {
 }
 .portfolio-filter .active a {
   color: #fff;
-  background-color: #00C5CB;
+  background-color: #ffa500;
 }
 @media only screen and (max-width: 479px) {
   .portfolio-filter {
@@ -737,7 +737,7 @@ footer p {
   margin: 15px;
 }
 .testimonial-area h4 {
-  color: #00C5CB;
+  color: #ffa500;
 }
 .testimonial-area span {
   color: #fff;
@@ -747,7 +747,7 @@ footer p {
 }
 
 .owl-theme .owl-controls .owl-page span {
-  background: #00C5CB;
+  background: #ffa500;
 }
 
 /*# sourceMappingURL=style.css.map */
