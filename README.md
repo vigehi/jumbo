@@ -1,4 +1,4 @@
-# portfolio-theme
+# Jumbo Analytics
 A complete one page website fot jumbo anallytics.
 Used Sass as a preproccesor.
 
