@@ -1,4 +1,7 @@
 # portfolio-theme
-A complete one page theme for portfolio.
+A complete one page website fot jumbo anallytics.
 Used Sass as a preproccesor.
-Watch the site live: <a href="https://md-saad.github.io/portfolio-theme/" target="_blank">Portfolio Theme</a>
+
+
+# sample image
+![header](images/Screen%20Capture%20002%20-%20Jumbo%20Analytics%20-%20127.0.0.1.jpg)
