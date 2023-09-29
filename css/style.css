@@ -27,12 +27,12 @@
 }
 
 body {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   font-size: 22px;
   line-height: 18px;
   color: #111111;
   font-weight: 300;
-  background: #EAE9E6;
+  background: #eae9e6;
 }
 
 ul {
@@ -61,7 +61,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #111111;
   margin-top: 0;
@@ -134,7 +134,9 @@ a:focus {
   }
 }
 
-.navbar-main .navbar-nav li a:before, .btn:after, .portfolio-filter li a:after {
+.navbar-main .navbar-nav li a:before,
+.btn:after,
+.portfolio-filter li a:after {
   content: "";
   position: absolute;
 }
@@ -156,7 +158,10 @@ section:nth-child(even) {
 
 /*================= 2. HOME ==================*/
 /*=== 2.1 HEADER ===*/
-.navbar-main .navbar-nav li a:hover:before, .navbar-main .navbar-nav li.active a:before, .navbar-main .navbar-nav li.active a:focus:before, .navbar-main .navbar-nav li.active a:hover:before {
+.navbar-main .navbar-nav li a:hover:before,
+.navbar-main .navbar-nav li.active a:before,
+.navbar-main .navbar-nav li.active a:focus:before,
+.navbar-main .navbar-nav li.active a:hover:before {
   opacity: 1;
   width: 100%;
   left: 0;
@@ -214,14 +219,17 @@ section:nth-child(even) {
 .navbar-main .navbar-nav li a:hover {
   color: #ffa500;
 }
-.navbar-main .navbar-nav li.active a, .navbar-main .navbar-nav li.active a:focus, .navbar-main .navbar-nav li.active a:hover {
+.navbar-main .navbar-nav li.active a,
+.navbar-main .navbar-nav li.active a:focus,
+.navbar-main .navbar-nav li.active a:hover {
   background-color: transparent;
   color: #ffa500;
 }
 .navbar-main .navbar-toggle .icon-bar {
   background-color: #fff;
 }
-.navbar-main .navbar-toggle:hover, .navbar-main .navbar-toggle:focus {
+.navbar-main .navbar-toggle:hover,
+.navbar-main .navbar-toggle:focus {
   background-color: #111111;
 }
 
@@ -231,7 +239,8 @@ section:nth-child(even) {
 }
 
 /*=== 2.2 FOOTER ===*/
-footer .scroll-down, .banner-area a.scroll-down {
+footer .scroll-down,
+.banner-area a.scroll-down {
   font-size: 36px;
   color: #ffa500;
   position: absolute;
@@ -242,7 +251,7 @@ footer .scroll-down, .banner-area a.scroll-down {
 footer {
   padding: 15px 0;
   position: relative;
-  border-top: 1px solid #97CCCD;
+  border-top: 1px solid #97cccd;
 }
 footer p {
   text-transform: capitalize;
@@ -290,10 +299,14 @@ footer p {
     padding-bottom: 0;
   }
 }
-.banner-area .btn, .banner-area .portfolio-filter li a, .portfolio-filter li .banner-area a {
+.banner-area .btn,
+.banner-area .portfolio-filter li a,
+.portfolio-filter li .banner-area a {
   font-weight: 600;
 }
-.banner-area .btn i, .banner-area .portfolio-filter li a i, .portfolio-filter li .banner-area a i {
+.banner-area .btn i,
+.banner-area .portfolio-filter li a i,
+.portfolio-filter li .banner-area a i {
   font-size: 18px;
   margin-left: 5px;
 }
@@ -403,7 +416,8 @@ footer p {
 }
 
 /*=== 5. Button ===*/
-.btn, .portfolio-filter li a {
+.btn,
+.portfolio-filter li a {
   padding: 10px 25px;
   color: #ffa500;
   text-transform: uppercase;
@@ -418,7 +432,8 @@ footer p {
   transition: all 0.5s ease-in-out;
   border: 2px solid #ffa500;
 }
-.btn:after, .portfolio-filter li a:after {
+.btn:after,
+.portfolio-filter li a:after {
   left: 0;
   top: 0;
   opacity: 0;
@@ -431,19 +446,26 @@ footer p {
   transition: all 0.3s ease-in-out;
   background: #ffa500;
 }
-.btn:hover:after, .portfolio-filter li a:hover:after {
+.btn:hover:after,
+.portfolio-filter li a:hover:after {
   height: 100%;
   opacity: 1;
   z-index: -1;
 }
-.btn:hover, .portfolio-filter li a:hover, .btn:focus, .portfolio-filter li a:focus, .btn:active:hover, .portfolio-filter li a:active:hover {
+.btn:hover,
+.portfolio-filter li a:hover,
+.btn:focus,
+.portfolio-filter li a:focus,
+.btn:active:hover,
+.portfolio-filter li a:active:hover {
   color: #fff;
   z-index: 1;
   background: transparent;
   border: 2px solid #ffa500;
 }
 
-.social-icons a, .service-area .service-content .service-icon {
+.social-icons a,
+.service-area .service-content .service-icon {
   font-size: 18px;
   display: block;
   width: 40px;
@@ -458,7 +480,8 @@ footer p {
   transition: all 0.3s ease-in-out;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .social-icons a, .service-area .service-content .service-icon {
+  .social-icons a,
+  .service-area .service-content .service-icon {
     margin-right: 5px;
   }
 }
@@ -468,7 +491,7 @@ footer p {
   overflow-y: hidden;
   margin: 15px 0px;
   padding-top: 20px;
-  border-top: 1px solid #97CCCD;
+  border-top: 1px solid #97cccd;
 }
 .social-icons a.facebook {
   color: #46639f;
@@ -483,12 +506,12 @@ footer p {
   border: 1px solid #d6513e;
 }
 .social-icons a.github {
-  color: #24292E;
-  border: 1px solid #24292E;
+  color: #24292e;
+  border: 1px solid #24292e;
 }
 .social-icons a.behance {
-  color: #003ECB;
-  border: 1px solid #003ECB;
+  color: #003ecb;
+  border: 1px solid #003ecb;
 }
 .social-icons a.dribble {
   color: #c73b6f;
@@ -523,7 +546,7 @@ footer p {
   text-align: center;
   padding: 20px;
   margin-bottom: 20px;
-  background: #EAE9E6;
+  background: #eae9e6;
 }
 .service-area .service-content h4 {
   -webkit-transition: all 0.5s ease-in-out;
@@ -570,7 +593,8 @@ footer p {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.counter-area .counter-wrap .counter-icon, .counter-area .counter-wrap .counter-title {
+.counter-area .counter-wrap .counter-icon,
+.counter-area .counter-wrap .counter-title {
   color: #ffa500;
   padding: 15px 0;
   font-size: 15px;
@@ -604,6 +628,88 @@ footer p {
 .skill-area .skill-progress span {
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.profile-image {
+  margin-top: -40px;
+}
+
+.profile-info {
+  margin-top: 40px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  border: 2px solid #ddd; /* Add border */
+  border-radius: 50%; /* Make it a circle */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  transition: transform 0.3s ease-in-out; /* Add smooth transition */
+}
+
+.icon:hover {
+  transform: scale(1.1); /* Add hover effect */
+}
+
+.skill-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mission,
+.vision,
+.values {
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  transition: transform 0.3s ease-in-out; /* Add smooth transition */
+  text-align: center;
+}
+
+.mission:hover,
+.vision:hover,
+.values:hover {
+  transform: translateY(-5px); /* Add hover effect */
+}
+.mission img,
+.vision img,
+.values img {
+width: auto;
+height: auto;
+}
+
+.mission h3,
+.vision h3,
+.values h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.mission p,
+.vision p,
+.values p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 767px) {
+  .skill-area {
+    flex-direction: column;
+  }
+
+  .mission,
+  .vision,
+  .values {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -662,7 +768,7 @@ footer p {
 
 .portfolio-item {
   position: relative;
-  background: #EAE9E6;
+  background: #eae9e6;
   margin-bottom: 30px;
   -webkit-box-shadow: 0px 0px 5px #111111;
   -moz-box-shadow: 0px 0px 5px #111111;
