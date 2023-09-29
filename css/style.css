@@ -720,12 +720,14 @@ height: auto;
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .profile-image {
+    display: none;
     margin-bottom: 10px;
   }
 }
 @media only screen and (max-width: 479px) {
   .profile-image {
     margin-bottom: 10px;
+    display: none;
   }
 }
 
