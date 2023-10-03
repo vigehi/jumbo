@@ -1022,6 +1022,9 @@ height: auto;
   .slide {
     margin-right: 5px;
   }
+  .slide > img {
+    margin-left: 18%;
+  }
 }
 
 
