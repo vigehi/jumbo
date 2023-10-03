@@ -139,3 +139,20 @@ $(document).ready(function () {
 
   });
 });
+
+$(document).ready(function () {
+
+  $("#logo-slider").owlCarousel({
+
+    autoPlay: 3000, 
+    navigation: false,
+    navigationText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+    pagination: true,
+    items: 4,
+    itemsDesktop: [1199, 2],
+    itemsDesktopSmall: [979, 2],
+    itemsDesktopSmall: [768, 1],
+    itemsDesktopSmall: [479, 1]
+
+  });
+});
